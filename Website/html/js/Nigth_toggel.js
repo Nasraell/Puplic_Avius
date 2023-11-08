@@ -67,4 +67,4 @@ function clock() {
       return standIn;
     }
   }
-  setInterval(clock, 1000);
+  setInterval(clock, 100);
