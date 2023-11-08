@@ -1,0 +1,109 @@
+:root{
+    --card-color:rgba(255, 255, 255, 0.05);
+}
+body{
+    align-items: center;
+    background-color:white;
+    height: 100%;
+    margin:0px;
+    overflow: hidden;
+}
+h1 {
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+.TextDartellung{
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #000000;
+    border-radius: 5px ;
+    margin: 0px;
+}
+.TextDartellung p{
+    text-align: center;
+    color: black;
+}
+.navi ul{
+list-style-type: none ;
+overflow: hidden;
+padding: 0px;
+margin: 0px;
+overflow: hidden;
+background-color: rgba(97, 96, 96, 0.5);
+border-radius: 10px;
+}
+
+#navi_Hinter{
+    background-color: rgba(172, 170, 170, 0.527);
+    border-radius: 10px;
+}
+.navi a{
+    color: lightblue;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+    .navi a:hover{
+        background-color: rgb(158, 157, 157);
+        border-radius: 10px;
+    }
+
+.navi li {
+    float: left;
+    color: lightblue;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+}
+#Gruender{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    gap: 10px;
+    max-width: 100%;
+}
+
+.text_card{  
+    height: 260px;
+    width: 500px;
+    background-color:var(--card-color);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3) ;
+}
+.text_card p:hover{ 
+       background-color:rgba(255, 255, 255, 0.15);
+    }
+.Cart {
+    background-color:var(--card-color);
+    height: 260px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+#Cart_logo{
+    height: 376;
+    width: 637;
+    border-radius: 10px;
+}
+
+#Footer{
+background-color:rgba(241, 239, 240, 0.8);
+position: fixed;
+bottom: 0;
+width: 100%;
+padding-bottom: 5px;
+}
+#footer a {
+    text-decoration: none;
+    
+}
+.clock {
+    color: lightblue;
+}
+  
