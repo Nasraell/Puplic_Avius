@@ -3,7 +3,7 @@
 }
 body{
     align-items: center;
-    background-color:white;
+    background: linear-gradient( white ,rgb(184, 184, 184), rgb(131, 130, 130) );
     height: 100%;
     margin:0px;
     overflow: hidden;
@@ -17,32 +17,35 @@ h3{
 }
 
 .TextDartellung{
+    border-spacing: 5px;
     text-align: center;
     padding: 5px;
     border: 1px solid #000000;
     border-radius: 5px ;
-    margin: 0px;
+    margin-top: 50px;
+    gap: 5px;
 }
 .TextDartellung p{
     text-align: center;
     color: black;
 }
+
 .navi ul{
 list-style-type: none ;
 overflow: hidden;
 padding: 0px;
 margin: 0px;
-overflow: hidden;
 background-color: rgba(97, 96, 96, 0.5);
 border-radius: 10px;
+
 }
 
 #navi_Hinter{
-    background-color: rgba(172, 170, 170, 0.527);
+    background-color: rgb(83, 83, 83);
     border-radius: 10px;
 }
 .navi a{
-    color: lightblue;
+    color: black;
     text-decoration: none;
     display: block;
     text-align: center;
@@ -54,11 +57,11 @@ border-radius: 10px;
 
 .navi li {
     float: left;
-    color: lightblue;
+    color:black ;
     text-decoration: none;
     padding: 15px;
     display: block;
-    text-align: center;
+    text-align: left;
     border-radius: 10px;
 }
 #Gruender{
@@ -93,17 +96,26 @@ border-radius: 10px;
 }
 
 #Footer{
-background-color:rgba(241, 239, 240, 0.8);
+    border-color: rgb(58, 58, 58);
+background-color: rgb(131, 130, 130);
 position: fixed;
 bottom: 0;
 width: 100%;
 padding-bottom: 5px;
+text-align: center;
 }
 #footer a {
+    color: black;
     text-decoration: none;
+ 
     
 }
 .clock {
-    color: lightblue;
+    color: black;
+    text-align: right;
 }
+label {
+    margin-top: 10px;
+    display: block;
+  }
   
