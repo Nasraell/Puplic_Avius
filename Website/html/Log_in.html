@@ -1,0 +1,64 @@
+<html>
+<title>Website Name</title>
+<style>
+      .Center{
+        margin-top:10%;
+    display: grid;
+ place-items:center;
+  }
+  #LogIn{
+border: 1px solid;
+padding: 3px;
+border-radius: 5px;
+  }
+</style>
+<Head> 
+    <link id ="Day" rel="stylesheet"  type="text/css" href="css\Day Standart.css">
+    <link id="Night" rel="stylesheet" type="text/css" href="css\Standartstyle.css">
+    <style>
+
+    </style>
+</Head>
+<body>
+    <nav class="navi">
+        <ul>
+            <li> <A href="../Index.Html"> Home</A> </li>
+            <li> <A href="Fluege.html"> Flüge</A> </li>
+            <li> <A href="About Us.html"> About us</A> </li>
+            <li id="navi_Hinter"><a href="Log_in.html"> Log In </a>
+            <li><div class="clock"></div></li> 
+            <li><button id="Day_Night">🌑</button><li>
+        </ul>
+    </nav>
+<form>
+
+
+
+        <h1> Log In </h1>
+  
+   
+
+ <div class="Center">
+    <div id="LogIn">
+        <label for="LgUser_Name">User Name:</label>
+        <input type="text" id="LgUser_Name" name="User_Name"><br><br>
+        <label for="password"> password:</label>
+        <input type="password" id="password" name="LgPassword"><br><br>
+       <P><a  style="text-align: left;" href=""> Regestrieren</a> </p>
+        <input type="submit" value="Submit" id="submit">
+        </div>
+  
+ </div>
+</form>   
+    <div id = Footer>
+        <footer>
+        <nav>
+            <a href= "Impressum.html"> Impressum |</a>
+            <a href= "Datenschutzgesetz.html"> Datenschutzgesetz</a>
+        </nav>
+        </footer>
+        </div>
+        <script src="js/Login.js"></script>
+        <script src="js\Nigth_toggel.js"></script>
+</body>
+</html>

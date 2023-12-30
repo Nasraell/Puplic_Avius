@@ -1,0 +1,136 @@
+:root{
+    --card-color:rgba(255, 255, 255, 0.05);
+    --background-color:rgb(0, 0, 0); 
+    --fontcolor-color: white;
+}
+body{
+    align-items: center;
+    background: rgb(0, 0, 0);
+    height: 100%;
+    margin:0px;
+    overflow: hidden;
+    color: var(--fontcolor-color);
+}
+h1 {
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+
+.TextDartellung{
+    border-spacing: 5px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #ffffff;
+    border-radius: 5px ;
+    margin-top: 50px;
+    gap: 5px; 
+}
+.TextDartellung p{
+    text-align: center;
+    color: var(--fontcolor-color);
+}
+.TextDartellung_Left{
+    border-spacing: 5px;
+    text-align: left ;
+    padding: 5px;
+    border: 1px solid #ffffff;
+    border-radius: 5px ;
+    margin-top: 50px;
+    gap: 5px;
+}
+.TextDartellung_Left p{
+    text-align: left;
+    color:var(--fontcolor-color);
+}
+
+.navi ul{
+list-style-type: none ;
+overflow: hidden;
+padding: 0px;
+margin: 0px;
+background-color: rgba(56, 56, 56, 0.708);
+border-radius: 10px;
+
+}
+
+#navi_Hinter{
+    background-color: rgb(83, 83, 83);
+    border-radius: 10px;
+}
+.navi a{
+    color: var(--fontcolor-color);
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+    .navi a:hover{
+        background-color: rgb(158, 157, 157);
+        border-radius: 10px;
+    }
+
+.navi li {
+    float: left;
+    color:var(--fontcolor-color) ;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: left;
+    border-radius: 10px;
+}
+#Gruender{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    gap: 10px;
+    max-width: 100%;
+}
+
+.text_card{  
+    height: 260px;
+    width: 500px;
+    background-color:var(--card-color);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3) ;
+}
+.text_card p:hover{ 
+       background-color:rgba(255, 255, 255, 0.15);
+    }
+.Cart {
+    background-color:var(--card-color);
+    height: 260px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+#Cart_logo{
+    height: 376;
+    width: 637;
+    border-radius: 10px;
+}
+
+#Footer{
+    border-color: rgb(109, 109, 109);
+background-color: rgba(56, 56, 56, 0.708);
+position: fixed;
+bottom: 0;
+width: 100%;
+padding-bottom: 5px;
+text-align: center;
+}
+#footer a {
+    color: var(--fontcolor-color);
+    text-decoration: none;
+ 
+    
+}
+.clock {
+    color:var(--fontcolor-color);
+    text-align: right;
+}
+label {
+    margin-top: 10px;
+    display: block;
+  }
+  
